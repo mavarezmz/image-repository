@@ -10,7 +10,7 @@ import cloudinary.api
 
 app = Flask(__name__)
 # app.secret_key = SecretKey
-# app.jinja_env.undefined = StrictUndefined
+app.jinja_env.undefined = StrictUndefined
 
 cloudinary.config( 
   cloud_name = "de93sqjwc", 
