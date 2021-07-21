@@ -6,16 +6,16 @@ from jinja2 import StrictUndefined
 import cloudinary as Cloud
 import cloudinary.uploader
 import cloudinary.api
-from APIconfig import APIsecret, SecretKey
+
 
 app = Flask(__name__)
-app.secret_key = SecretKey
-app.jinja_env.undefined = StrictUndefined
+# app.secret_key = SecretKey
+# app.jinja_env.undefined = StrictUndefined
 
 cloudinary.config( 
-  cloud_name = "knittr", 
-  api_key = "163782255322919", 
-  api_secret =  APIsecret
+  cloud_name = "de93sqjwc", 
+  api_key = "855155124167824", 
+  api_secret =  "6BfBwSVJrofd8ngNM1KZYCrulrg"
 )
 
 
